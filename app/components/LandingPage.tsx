@@ -206,12 +206,6 @@ export function LandingPage() {
               <span>🎓 VTU Graduate</span>
             </div>
             <div className="hero-ctas">
-              <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className="btn-p">
-                Connect on LinkedIn
-              </a>
-              <a href={RESUME_URL} target="_blank" rel="noopener noreferrer" className="btn-s">
-                Download Resume →
-              </a>
               <a
                 href="https://market.anuragsindhu.com"
                 target="_blank"
@@ -219,6 +213,12 @@ export function LandingPage() {
                 className="btn-s"
               >
                 Live Project →
+              </a>
+              <a href={RESUME_URL} target="_blank" rel="noopener noreferrer" className="btn-s">
+                Download Resume →
+              </a>
+              <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className="btn-s">
+                Connect on LinkedIn →
               </a>
             </div>
             <div className="stats">
